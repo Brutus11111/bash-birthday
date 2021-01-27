@@ -2,7 +2,7 @@
 TODAY=$(date +%m-%d)
 TOMORROW=$(date --date="-1days ago" +%m-%d)
 BDFILE=birthdays.text
-FESFILE=festival.text
+FESFILE=celebrations.text
 BLUE=$'\e[1;34m'
 if [[ $(cat $BDFILE | grep $TODAY)  ]]; then
   echo -e "${BLUE}TODAY'S BIRTHDAYS:"
