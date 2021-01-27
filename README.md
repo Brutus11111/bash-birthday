@@ -8,7 +8,7 @@ Open the file `birthdays.text` and add new people in the following way:
 
 ```firstname lastname,12-31```
 
-I used the month-day version because I prefer the `YYYY-MM-DD` version. Without `YYYY` you end up with `MM-DD`
+I used the month-day version because I prefer the `YYYY-MM-DD` version. Without `YYYY` you end up with `MM-DD`.
 
 ## Adding celebrations
 
@@ -16,3 +16,8 @@ Open the file `celebrations.text` and add new celebrations in the following way:
 
 ```Festival name,12-31```
 
+# Adding it to your .bashrc
+
+Adding it to your `.bashrc` file is easy. Open your `.bashrc` and add the following line:
+
+```~/location/of/script/birthday.sh```
