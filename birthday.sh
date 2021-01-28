@@ -1,8 +1,8 @@
 #!/bin/bash
 TODAY=$(date +%m-%d)
 TOMORROW=$(date --date="-1days ago" +%m-%d)
-BDFILE=/home/robert/scripts/birthdays.text
-FESFILE=/home/robert/scripts/celebrations.text
+BDFILE=~/scripts/birthdays.text
+FESFILE=~/scripts/celebrations.text
 BLUE=$'\e[1;34m'
 #Black         \e[0;30m
 #Dark Gray     \e[1;30m
